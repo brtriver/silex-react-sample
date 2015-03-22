@@ -1,0 +1,8 @@
+{
+  "name": "sample",
+  "description": "scripts for Application",
+  "dependencies": {
+    "jquery": "2.1.1",
+    "react": "~0.13.0"
+  }
+}

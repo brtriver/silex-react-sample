@@ -1,0 +1,29 @@
+{
+    "name": "brtriver/silex-sample-application",
+    "description": "simple silex web app sample",
+    "keywords": ["silex"],
+    "homepage": "http://1ms.jp/",
+    "type": "app",
+    "require": {
+        "php": ">=5.4.0",
+        "ext-pdo": "*",
+	"silex/silex": "2.0.*@dev",
+	"twig/twig": "~1.0",
+	"doctrine/dbal": "2.6.*@dev",
+	"aura/filter": "dev-master"
+    },
+    "require-dev": {
+        "phake/phake": "v2.0.1",
+        "hamcrest/hamcrest-php": "1.2.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Masao Maeda",
+            "email": "brt.river@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Ex\\": "src/Ex/" }
+    }
+}

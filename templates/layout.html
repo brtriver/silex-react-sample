@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>{% block title '' %} - My Silex Application</title>
+
+        <link href="{{ asset('css/main.css') }}" rel="stylesheet" type="text/css" />
+        <script src="{{ asset('bower_components/react/react.min.js') }}"></script>
+        <script src="{{ asset('bower_components/jquery/dist/jquery.min.js') }}"></script>
+    </head>
+    <body>
+        {% block content %}{% endblock %}
+    </body>
+</html>

@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h1>User list</h1>
+
+<div id="users" data-source="{{ app.url_generator.generate('api_users') }}"></div>
+<script src="{{ asset('build/users.js') }}"></script>
+
+{% endblock %}
