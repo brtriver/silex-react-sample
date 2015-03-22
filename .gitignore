@@ -6,3 +6,4 @@
 .dbup/properties.ini
 phpunit.phar
 dbup.phar
+composer.phar
