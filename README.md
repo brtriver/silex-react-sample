@@ -14,6 +14,8 @@ make install
 make server
 ```
 
+browse `http://localhost:8888`
+
 ## Write your code and check
 
 ```
