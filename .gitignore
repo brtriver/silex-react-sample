@@ -1,0 +1,8 @@
+/vendor/*
+/node_modules/*
+/web/build/*
+/var/*
+.dbup/applied/*
+.dbup/properties.ini
+phpunit.phar
+dbup.phar
